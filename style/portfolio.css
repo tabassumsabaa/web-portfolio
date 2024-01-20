@@ -164,3 +164,36 @@ font-weight: 400;
     font-size: 30px;
     font-weight: 700;
 }
+.resume-container{
+    display: flex;
+    gap: 50px;
+}
+
+.resume-container hr{
+    margin:30px;
+}
+.resume-item-title{
+    color:#474747;
+font-family: "Open Sans";
+font-size: 25px;
+font-weight: 700;
+margin-bottom: 10px;
+}
+.resume-item-institude{
+    color: #757575;
+font-family: "Open Sans";
+font-size: 20px;
+font-weight: 600;
+margin-top: 0px;
+margin-bottom: 10px;
+}
+.resume-item-description{
+    color: #757575;
+font-family: "Open Sans";
+font-size: 16px;
+font-weight: 400;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
+}
