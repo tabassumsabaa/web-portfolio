@@ -39,13 +39,14 @@ nav a{
     font-size: 20px;
     font-weight: 700;
     padding: 10px 15px;
+    text-transform: capitalize;
 }
 /* header related style*/
 .header{
     background-color: #FFF8F3;
-    background-image: url('../images/header_bg.png');
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
     background-size:auto;
 }
 .banner{
@@ -118,11 +119,12 @@ main section{
 }
 .about-info h4{
     color:  #757575;
-text-align: center;
-font-family: "Open Sans";
-font-size: 20px;
-font-weight: 400;
-line-height: 30px;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 400;
+    /* line-height: 30px; */
+    margin-bottom: -10px;
 }
 .about-info p{ 
     color: #474747;
@@ -171,6 +173,7 @@ font-weight: 400;
 
 .resume-container hr{
     margin:30px;
+    margin-left: 0px;
 }
 .resume-item-title{
     color:#474747;
