@@ -80,7 +80,10 @@ nav a{
     font-weight: 400;
 }
 /* main secion style start*/
-
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 /* about */
 .about{
     padding: 130px;
@@ -102,4 +105,26 @@ nav a{
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
+.about-info h4{
+    color:  #757575;
+text-align: center;
+font-family: "Open Sans";
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+}
+.about-info p{ 
+    color: #474747;
+font-family: "Open Sans";
+font-size: 20px;
+font-weight: 700;
+line-height: 30px;
 }
